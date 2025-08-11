@@ -10,6 +10,7 @@ export default defineConfig((/* ctx */) => {
     css: ['app.scss'],
     extras: ['roboto-font', 'material-icons'],
     build: {
+      publicPath: '/biodata-app/',
       target: {
         browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
         node: 'node20',
