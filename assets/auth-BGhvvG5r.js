@@ -1,0 +1,1 @@
+import{b as s}from"./index-3fevySbJ.js";const c=s(({router:e})=>{e.beforeEach((o,h,t)=>{const a=!!localStorage.getItem("token");o.matched.some(r=>r.meta.requiresAuth)&&!a?t({path:"/auth/login"}):t()})});export{c as default};
